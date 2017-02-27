@@ -8,7 +8,7 @@ class B(object):
 class C(A,B):
 	def __init__(self):
 		super(C, self).__init__()
-		print "third"
+		print "last"
 
 
 C()
